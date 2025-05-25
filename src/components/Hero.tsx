@@ -1,10 +1,7 @@
-
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 export const Hero = () => {
-  return (
-    <section className="min-h-screen flex items-center justify-center px-4 relative overflow-hidden">
+  return <section className="min-h-screen flex items-center justify-center px-4 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-purple-600/20 to-teal-600/20"></div>
       <div className="absolute top-20 left-20 w-32 h-32 bg-blue-400/30 rounded-full blur-xl animate-pulse"></div>
@@ -42,16 +39,13 @@ export const Hero = () => {
           
           {/* Social Links */}
           <div className="flex justify-center md:justify-start space-x-6 pt-6">
-            <a href="https://github.com/Shail-Pradhan" target="_blank" rel="noopener noreferrer" 
-               className="p-3 bg-white/80 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group">
+            <a href="https://github.com/Shail-Pradhan" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/80 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group">
               <Github className="w-6 h-6 text-gray-700 group-hover:text-blue-600 transition-colors" />
             </a>
-            <a href="https://www.linkedin.com/in/shail-pradhan/" target="_blank" rel="noopener noreferrer"
-               className="p-3 bg-white/80 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group">
+            <a href="https://www.linkedin.com/in/shail-pradhan/" target="_blank" rel="noopener noreferrer" className="p-3 bg-white/80 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group">
               <Linkedin className="w-6 h-6 text-gray-700 group-hover:text-blue-600 transition-colors" />
             </a>
-            <a href="mailto:shail.pradhan@icloud.com"
-               className="p-3 bg-white/80 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group">
+            <a href="mailto:shail.pradhan@icloud.com" className="p-3 bg-white/80 backdrop-blur-sm rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group">
               <Mail className="w-6 h-6 text-gray-700 group-hover:text-blue-600 transition-colors" />
             </a>
           </div>
@@ -61,11 +55,7 @@ export const Hero = () => {
         <div className="flex justify-center md:justify-end animate-fade-in delay-300">
           <div className="relative">
             <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1 animate-pulse">
-              <img 
-                src="/lovable-uploads/4ea14f8c-e4cc-4985-9d30-0ea553608b7c.png"
-                alt="Shail Pradhan"
-                className="w-full h-full rounded-full object-cover bg-white"
-              />
+              <img alt="Shail Pradhan" src="/lovable-uploads/441e6344-7a91-42cf-82f1-3f3b350d0e71.jpg" className="w-full h-full rounded-full bg-white object-fill" />
             </div>
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-br from-teal-400 to-blue-500 rounded-full opacity-80 animate-bounce delay-500"></div>
             <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full opacity-80 animate-bounce delay-700"></div>
@@ -77,6 +67,5 @@ export const Hero = () => {
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <ArrowDown className="w-8 h-8 text-gray-400" />
       </div>
-    </section>
-  );
+    </section>;
 };
