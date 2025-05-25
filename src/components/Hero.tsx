@@ -7,7 +7,7 @@ export const Hero = () => {
       <div className="absolute top-20 left-20 w-32 h-32 bg-blue-400/30 rounded-full blur-xl animate-pulse"></div>
       <div className="absolute bottom-20 right-20 w-40 h-40 bg-purple-400/30 rounded-full blur-xl animate-pulse delay-1000"></div>
       
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10 bg-emerald-50">
         {/* Left Content */}
         <div className="text-center md:text-left space-y-6 animate-fade-in">
           <div className="space-y-4">
