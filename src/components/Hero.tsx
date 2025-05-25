@@ -55,7 +55,7 @@ export const Hero = () => {
         <div className="flex justify-center md:justify-end animate-fade-in delay-300">
           <div className="relative">
             <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1 animate-pulse">
-              <img alt="Shail Pradhan" src="/lovable-uploads/441e6344-7a91-42cf-82f1-3f3b350d0e71.jpg" className="w-full h-full rounded-full bg-white object-fill" />
+              <img alt="Shail Pradhan" src="/lovable-uploads/441e6344-7a91-42cf-82f1-3f3b350d0e71.jpg" className="w-full h-full rounded-full bg-white object-contain" />
             </div>
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-br from-teal-400 to-blue-500 rounded-full opacity-80 animate-bounce delay-500"></div>
             <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full opacity-80 animate-bounce delay-700"></div>
